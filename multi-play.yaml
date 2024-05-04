@@ -1,6 +1,6 @@
 - name: PLAY-1
- hosts: local host
- tasks:
+  hosts: local host
+  tasks:
   - name: PLAY-1 and TASK-1
     ansibl.builtin.debug:
      msg: "hello i am from PLAY-1 and TASK-1"
