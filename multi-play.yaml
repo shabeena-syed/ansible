@@ -12,5 +12,5 @@
   hosts: local host
   tasks:
     - name: PLAY-2 and TASK-1
-     ansible.builtin.debug:
+      ansible.builtin.debug:
       msg: "hello i am from PLAY-2 and TASK-1"    
